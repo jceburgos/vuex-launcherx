@@ -1,0 +1,143 @@
+@import url(banner.css);
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+    background-image:url("pokemongo.jpg");
+}
+
+
+section{
+	width:100%;
+	margin-top: 5px;
+    background: aqua;
+
+}
+#contenedor{
+    height: 95%;
+	width: 95%;
+
+	margin:2% ;
+   
+    position:absolute;
+}
+#contenedor2{
+    height: 50%;
+	width: 50%;
+	background: rgb(32, 204, 41);
+	margin:10px ;
+   
+    position:absolute;
+}
+
+#contenedor img{
+  
+    width: 95%;
+    height: 95%;
+    margin: 10px;
+    text-align: center;
+    position:absolute;
+    
+}
+
+
+#contenedor h2{
+   
+    margin-top: 2%;
+    margin-left: 7%;
+    width: 60%;
+    font-size: relative;
+    color: rgb(245, 45, 45);
+    position: relative;
+   
+ 
+}
+#fname{
+    margin-top: 11%;
+    margin-left: 12%;
+    width: 17%;
+    font-size: 100%;
+    font-style: oblique;
+    font-weight: bolder;
+    position: relative;
+    text-align: center;
+    color: #4747d3;
+
+}
+#ConImg{
+     height: 40%;
+	width: 100%;
+
+	
+	margin:1% ;
+  
+    position:relative;
+}
+#ConImg img{
+   height: 90%;
+   width: 20%;
+   margin-top:0% ;
+   margin-left:10% ;
+ 
+   position:relative;
+  
+}
+
+
+#contenedor button{
+    margin-top: 0%;
+    margin-left: 13%;
+    width: 15%;
+    font-size: 15px;
+    font-style: oblique;
+    font-weight: bolder;
+    position: absolute;
+    height: 6%;
+    line-height: 15%;
+    background: rgb(10, 12, 148);
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .1s ease all;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1CB5E0, #d49929);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2825b6, #4747d3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 3px 0px 30px rgb(246, 248, 242);
+
+}
+.poke_info{
+    position: absolute;
+    float: left;   
+    width: 23%;
+    height: 60%;
+    overflow: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 15%;
+    margin-left: 40%;
+    padding-left: 1%;
+}
+.poke_info img{
+    float: left;
+}
+.poke_info h1{
+    font-size: 25px;
+    color: #bd0f34;
+    margin-top: 10%;
+    margin-left: 30px;
+}
+.poke_info h2{
+    font-size: 15px;
+    font-family: arial;
+}
+.poke_info p{
+    
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+}
