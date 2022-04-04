@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'vuex-launcherx'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B039E267FDA04862B70E25BB70AA4A0E }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E9DB9CFF357C40D198D5E99F17068E80 }}
           package: .
